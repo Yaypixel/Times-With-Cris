@@ -1,0 +1,9 @@
+#Hi {
+    color: rgb(138, 194, 8);
+    transition: all 1s;
+}
+#Hi.Mod {
+    color: blue;
+    font-size: 22pt;
+    font-weight: bold;
+}

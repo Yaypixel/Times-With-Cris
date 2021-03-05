@@ -1,0 +1,48 @@
+header img{
+	width: 40%;
+}
+body{
+	text-align: center;
+}
+button{
+	margin: 1em;
+	font-size: 15pt;
+}
+#cards img{
+	width: 10%;
+}
+#cards{
+	position: relative;
+	width: 50%;
+	height: 0px;
+	padding-top: 50%;
+	outline: 1px solid black;
+	margin: auto;
+}
+#hand-wrapper-0{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	transform: rotate(180deg);
+}
+#hand-wrapper-1{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	transform: rotate(0deg);
+}
+#hand-wrapper-2{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	transform: rotate(270deg);
+}
+#hand-wrapper-3{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	transform: rotate(90deg);
+}
+#cards img {
+	transform: scale(-1);
+}

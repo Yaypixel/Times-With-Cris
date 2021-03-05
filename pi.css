@@ -1,0 +1,10 @@
+canvas {
+	border: 1px solid silver;
+	margin: 1em auto;
+	display: block;
+}
+
+input, button {
+	text-align: center;
+	margin: auto;
+}

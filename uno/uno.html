@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<script src="uno.js">
+		</script>
+		<link rel="stylesheet" href="uno.css">
+	</head>
+	<body>
+		<header>
+			<img src="Assets/unotitle.png">
+		</header>
+		<section id="startGameButtons">
+			<button onclick="startGame(2)">2 players</button>
+			<button onclick="startGame(3)">3 players</button>
+			<button onclick="startGame(4)">4 players</button>
+		</section>
+		<section id="cards">
+			<section id="center">
+				<div id="discard" ondrop="onPlay(event)" ondragover="event.preventDefault()"></div>
+				<div id="deck" ondragstart="startDraw()">
+					<img src="Assets/Deck.png">
+				</div>
+			</section>
+		</section>
+		<section id="pick">
+			<p>pick a color</p>
+			<svg width="100" height="100">
+				<rect x="0" y="0" width="100" height="100" rx="30" ry="30" onclick="pickColor('green')">
+					
+				</rect>
+			</svg>
+			<svg width="100" height="100">
+				<rect x="0" y="0" width="100" height="100" rx="30" ry="30" onclick="pickColor('yellow')">
+					
+				</rect>
+			</svg>
+			<svg width="100" height="100">
+				<rect x="0" y="0" width="100" height="100" rx="30" ry="30" onclick="pickColor('red')">
+					
+				</rect>
+			</svg>
+			<svg width="100" height="100">
+				<rect x="0" y="0" width="100" height="100" rx="30" ry="30" onclick="pickColor('blue')">
+					
+				</rect>
+			</svg>
+		</section>
+	</body>
+</html>
